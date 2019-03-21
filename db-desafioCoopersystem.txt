@@ -1,0 +1,13 @@
+CREATE DATABASE desafio;
+
+CREATE TABLE desafio.tb_usuario
+(
+    id_usuario          INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    ds_senha			VARCHAR(100) NOT NULL
+	ds_tipo				VARCHAR(100)
+	ds_nome				VARCHAR(100)
+	cpf					INT
+	ds_endereco			VARCHAR(100)
+	telefone			INT
+	ds_email			VARCHAR(100)
+);
